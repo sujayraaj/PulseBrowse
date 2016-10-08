@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/sujayraaj/pulsebrowse#readme",
   "dependencies": {
+    "bower": "^1.7.9",
     "handlebars": "^4.0.5"
   }
 }
