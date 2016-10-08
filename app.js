@@ -5,7 +5,7 @@ let win
 function createWindow(){
 	win = new BrowserWindow({width:800,height:600, menubar:false});
 
-	win.loadURL('file://'+__dirname+'/index.html');
+	win.loadURL('file://'+__dirname+'/src/index.html');
 
 	win.webContents.openDevTools();
 
