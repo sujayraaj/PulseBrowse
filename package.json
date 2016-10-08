@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/sujayraaj/pulsebrowse/issues"
   },
-  "homepage": "https://github.com/sujayraaj/pulsebrowse#readme"
+  "homepage": "https://github.com/sujayraaj/pulsebrowse#readme",
+  "dependencies": {
+    "handlebars": "^4.0.5"
+  }
 }
