@@ -1,19 +1,15 @@
 <html>
 <head>
 <title>This is a native app based on HTML5</title>
-<script src="bower_components/jquery/dist/jquery.js"></script>
-<style type="text/css">
-	.tab{
-		width:100%;
-		height:90%;
-	}
-	body{
-		}
-</style>
+<link rel="stylesheet" type="text/css" href="bower_components/jquery-ui/themes/base/jquery-ui.min.css">
 </head>
 
 <body>
-<webview id="tab1" class="tab" src="http://www.google.com/"></webview></body>
-<script src="scripts.js"></script>
+<div id="dialog" title="basic-dialog">
+<webview id="foo" src="http://www.google.com/" style="width:640px; height:480px"></webview>
+</div>
+
+</body>
+<script src="assets/js/scripts.js"></script>
 </html>
 
