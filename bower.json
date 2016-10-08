@@ -1,0 +1,21 @@
+{
+  "name": "pulse-browser",
+  "description": "A crossplatform web browser",
+  "main": "app.js",
+  "authors": [
+    "Sujay Raj"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/sujayraaj/pulsebrowse",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "jquery-ui": "^1.12.1"
+  }
+}
